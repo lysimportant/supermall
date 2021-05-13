@@ -173,21 +173,21 @@
     /*top: 0;*/
     z-index: 1;
   }
-  .content {
-    position: absolute;
-    overflow: hidden;
-    top: 44px;
-    bottom: 49px;
-    left: 0;
-    right: 0;
-  }
+  /*.content {*/
+  /*  position: absolute;*/
+  /*  overflow: hidden;*/
+  /*  top: 44px;*/
+  /*  bottom: 49px;*/
+  /*  left: 0;*/
+  /*  right: 0;*/
+  /*}*/
   .tab-control {
     position: relative;
     z-index: 9;
   }
-  /*.content {*/
-  /*  height: calc(100% - 93px);*/
-  /*  overflow: hidden;*/
-  /*  margin-top: 44px!important;*/
-  /*}*/
+  .content {
+    height: calc(100% - 44px - 49px);
+    overflow: hidden;
+    /*margin-top: 44px!important;*/
+  }
 </style>
