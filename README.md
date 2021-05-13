@@ -1,16 +1,16 @@
 # supermall
 
-## Project setup
+## Project setup 安装环境依赖
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compiles and hot-reloads for development  开发运行
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compiles and minifies for production  打包生产
 ```
 npm run build
 ```

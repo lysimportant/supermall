@@ -173,6 +173,7 @@
     /*top: 0;*/
     z-index: 1;
   }
+<<<<<<< HEAD
   /*.content {*/
   /*  position: absolute;*/
   /*  overflow: hidden;*/
@@ -181,13 +182,31 @@
   /*  left: 0;*/
   /*  right: 0;*/
   /*}*/
+=======
+  .content {
+    position: absolute;
+    overflow: hidden;
+    top: 44px;
+    bottom: 49px;
+    left: 0;
+    right: 0;
+  }
+>>>>>>> 65a7f4c0d8c10f1a8ea839812d3096d16cc1fb36
   .tab-control {
     position: relative;
     z-index: 9;
   }
+<<<<<<< HEAD
   .content {
     height: calc(100% - 44px - 49px);
     overflow: hidden;
     /*margin-top: 44px!important;*/
   }
+=======
+  /*.content {*/
+  /*  height: calc(100% - 93px);*/
+  /*  overflow: hidden;*/
+  /*  margin-top: 44px!important;*/
+  /*}*/
+>>>>>>> 65a7f4c0d8c10f1a8ea839812d3096d16cc1fb36
 </style>
